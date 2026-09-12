@@ -1,0 +1,6 @@
+# Keep the QR images and the .com they carry as binary on every OS.
+*.png binary
+*.com binary
+
+# The build tooling under tools/ is kept out of the language count.
+tools/*.py -linguist-detectable

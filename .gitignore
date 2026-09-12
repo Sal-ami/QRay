@@ -1,0 +1,13 @@
+# build/ receives the outputs.  The two QR images and the .com behind the first
+# one are the artifacts this repo exists to hand out, so they stay tracked.
+# Everything else in there is rebuilt by build.ps1.
+build/*
+!build/raycast_qr.png
+!build/web_qr.png
+!build/raycast.com
+
+__pycache__/
+*.pyc
+.github_token
+Thumbs.db
+.DS_Store
