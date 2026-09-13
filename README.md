@@ -1,4 +1,4 @@
-# boot3d
+# QRay
 
 ![the browser build of the game carried inside one QR code](build/web_qr.png)
 
